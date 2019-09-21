@@ -1,0 +1,10 @@
+#查看网络配置信息
+netsh int ip sh int
+netsh int ip sh ip 
+
+#查看网卡信息
+get-netadapter
+
+#修改网卡名字
+rename-netadapter "Ethernet 2" sio
+
