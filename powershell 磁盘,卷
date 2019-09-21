@@ -1,0 +1,8 @@
+#查看物理硬盘,查看卷
+get-disk
+get-volume
+
+#初始化物理硬盘
+initialize-disk -number 1
+#给未分区的硬盘划盘符
+new-partition -disknumber 1 -assigndriveletter -usemaximumsize
